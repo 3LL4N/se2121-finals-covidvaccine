@@ -26,8 +26,12 @@ For 3c, vbm_date was converted to varchar and the input for date is a varchar da
 comparing the records.
 
 (5)
+Nested operations were used to solve most of the problems mentioned in item 5. Almost all problems were approached
+using lenghty operations that mainly focus on converting data types and extract specific data on a column/row.
 
 (6)
 Create view is used for the creation of view.
 AVG gets the average of the specified column.
-GROUP BY groups average per iso, code per vaccines
+GROUP BY groups average per iso, code per vaccines 
+INNER JOIN was used in-order to link vaccines_by_manufacturers table to the locations table via its PK, the locations names
+and ORDER BY simply rearranges the iso in an alphabetical manner
